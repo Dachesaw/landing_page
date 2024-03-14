@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    /* border: solid red 2px; */
+}
+
+header {
+    /* border: solid red; */
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    background: linear-gradient(to right, #D4145AB2, #2E3192B2);
+}
+
+nav a {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+
+
+.left_men {
+    margin-right: 70em;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
