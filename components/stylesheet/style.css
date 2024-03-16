@@ -17,7 +17,7 @@ menu {
 
 span ul li a {
     font-weight: 300;
-    font-size: 18px;
+    font-size: 20px;
     color: rgba(115, 115, 115, 1);
 }
 
@@ -180,8 +180,62 @@ label {
 
 /* @media (min-width: 320px) and (max-width: 768px) {
     .header {
-        background: aliceblue;
+        background: rgb(255, 0, 0);
     }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {} */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .header {
+        background: rgb(0, 136, 255);
+    }
+} */
+
+
+#btn {
+    width: 179px;
+    height: 53px;
+    border-radius: 7px;
+    border: none;
+    background: linear-gradient(95.2deg, #B90160 2.23%, #2E3192 99.51%);
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+#block-2-header {
+    display: flex;
+    margin-top: 190px;
+    justify-content: space-between;
+}
+
+#block-2-header span {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+#block-2-header span h1 {
+    color: rgba(0, 0, 0, 1);
+    font-size: 50px;
+    font-weight: 800;
+    text-align: left;
+}
+
+#block-2-header span p {
+    font-size: 24px;
+    font-weight: 300;
+    text-align: left;
+
+}
+
+#block-2-header span img {
+    position: absolute;
+    max-width: 696px;
+    max-height: 896px;
+    width: 50vw;
+    height: auto;
+    top: 142px;
+    left: 55%;
+}
