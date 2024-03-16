@@ -239,3 +239,38 @@ label {
     top: 142px;
     left: 55%;
 }
+
+footer {
+    border: solid black 1px;
+    padding-top: 172px;
+    padding-bottom: 84px;
+    margin-top: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer div img {
+    width: 33px;
+    height: 33px;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+
+}
+
+footer div h6 {
+    font-size: 14px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+footer div a {
+    color: rgba(0, 0, 0, 1);
+    font-size: 14px;
+    font-weight: 300;
+    text-align: left;
+}
