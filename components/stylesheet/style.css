@@ -244,10 +244,9 @@ label {
 }
 
 footer {
-    border: solid black 1px;
+    /* border: solid black 1px; */
     padding-top: 172px;
     padding-bottom: 84px;
-    margin-top: 300px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -345,4 +344,66 @@ footer div a {
     margin-left: 22px;
     margin-top: 10px;
     margin-bottom: 22px;
+}
+
+
+.block-4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 300px;
+    width: auto;
+    height: 357px;
+    border: solid black 1px;
+    background: linear-gradient(94.31deg, rgba(212, 20, 90, 0.25) 0.96%, rgba(46, 49, 146, 0.25) 104.83%);
+}
+
+.block-banner {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 38px;
+    margin-bottom: 72px;
+    border: solid black 1px;
+    width: 536px;
+    height: 247px;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 536px;
+    height: 187px;
+    border-radius: 9px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.banner p {
+    margin-top: 63px;
+    margin-bottom: 21px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21px;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+}
+
+.block-banner {
+    align-items: center;
+}
+
+.block-banner span {
+    margin-top: 9px;
+    margin-bottom: 20px;
+    font-size: 13px;
+    font-weight: 200;
+    line-height: 15px;
+    text-align: center;
+    color: rgba(142, 142, 142, 1);
+}
+
+.avatar {
+    position: absolute;
+    top: 1880px;
 }
