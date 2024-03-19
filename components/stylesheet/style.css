@@ -114,7 +114,6 @@ a svg {
     height: 80px;
 }
 
-#submit {}
 
 input {
     padding-left: 2%;
@@ -122,16 +121,6 @@ input {
     border: rgba(161, 161, 161, 1) solid 1px;
 }
 
-.modal-header {
-    /* margin-left: 250px; */
-
-}
-
-.modal-body {
-    /* display: flex;
-    align-items: center;
-    flex-direction: column; */
-}
 
 label {
     margin: 10%;
@@ -141,12 +130,12 @@ label {
 
 .modal {
     display: none;
-    background-color: gray;
+    background-color: rgb(173, 159, 159);
     background-color: rgba(184, 154, 154, 0.5);
     z-index: 1;
-
-    overflow: auto;
-    position: static;
+    top: 150px;
+    left: 30%;
+    position: fixed;
     width: 50%;
     height: 45%;
 }
@@ -235,11 +224,11 @@ label {
 
 #block-2-header span img {
     position: absolute;
-    max-width: 696px;
-    max-height: 896px;
+    max-width: 533px;
+    max-height: 686px;
     width: 50vw;
     height: auto;
-    top: 142px;
+    top: 150px;
     left: 55%;
 }
 
@@ -278,7 +267,7 @@ footer div a {
 }
 
 .block-3 {
-    margin-top: 25px;
+    margin-top: 200px;
     text-align: center;
 }
 
@@ -296,7 +285,8 @@ footer div a {
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
-    background-image: linear-gradient(180deg, #B8005F 9.24%, #00FFFF 210.4%);
+    /* background-image: linear-gradient(180deg, #B8005F 9.24%, #00FFFF 210.4%); */
+    background-image: linear-gradient(180deg, #B90160 2.23%, #2E3192 99.51%);
 
 }
 
@@ -324,8 +314,7 @@ footer div a {
 }
 
 #last-img {
-    width: 100%;
-    height: 53%;
+    max-height: 53%;
 }
 
 .block-3 div picture h2 {
@@ -354,7 +343,7 @@ footer div a {
     margin-top: 300px;
     width: auto;
     height: 357px;
-    border: solid black 1px;
+    /* border: solid black 1px; */
     background: linear-gradient(94.31deg, rgba(212, 20, 90, 0.25) 0.96%, rgba(46, 49, 146, 0.25) 104.83%);
 }
 
@@ -364,7 +353,7 @@ footer div a {
     flex-direction: column;
     margin-top: 38px;
     margin-bottom: 72px;
-    border: solid black 1px;
+    /* border: solid black 1px; */
     width: 536px;
     height: 247px;
 }
@@ -406,4 +395,10 @@ footer div a {
 .avatar {
     position: absolute;
     top: 1880px;
+}
+
+#banner-1,
+#banner-3 {
+    opacity: 0.50;
+
 }
