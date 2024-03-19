@@ -59,7 +59,7 @@
                             <path
                                 d="M23.0295 4.73616C24.0898 4.70828 24.9744 5.52794 25.0095 6.57621C25.0388 7.55199 24.1543 8.41625 23.1116 8.43855C22.0278 8.46086 21.1316 7.65235 21.1023 6.62639C21.0788 5.61158 21.94 4.76404 23.0295 4.73616Z"
                                 fill="white" />
-                        </svg> посетите нашу <br> страницу
+                        </svg>
                     </a>
                 </span>
             </menu>
@@ -85,9 +85,9 @@
                     </span>
                     <span>
                         <ul>
-                            <li><a href="#">отзывы</a></li>
-                            <li><a href="#">что это?</a></li>
-                            <li><a href="#">контакты</a></li>
+                            <li><a href="#this">что это?</a></li>
+                            <li><a href="#banner-3">отзывы</a></li>
+                            <li><a href="#contact">контакты</a></li>
                         </ul>
                     </span>
                 </div>
@@ -109,24 +109,23 @@
         <div class="modal-content">
             <div class="modal-body">
                 <div class="modal-header">
-                    <span class="close">x</span>
+                    <h2>ФОРМА ЗАЯВКИ</h2>
+                    <span class="close"></span>
                 </div>
-                <h2>ФОРМА ЗАЯВКИ</h2>
-                <label for="">
-                    <input type="text" name="text" id="name" placeholder="Ваше имя" required="">
-                    <input type="email" name="email" id="email" placeholder="Ваш email">
-                    <input type="text" name="comment" id="comment"
+                <label for="name">
+                    <input type="text" name="name" id="name" placeholder="Ваше имя" required="">
+                    <input type="email" name="name" id="email" placeholder="Ваш email">
+                    <input type="text" name="name" id="comment"
                         placeholder="Ваше сообщение (марка автомобиля, цвет ковриков, номер телефона)">
-                    <input type="submit" name="btn-submit" id="submit">
                 </label>
             </div>
             <div class="modal-footer">
-                <!-- <h2><button type="submit"></button></h2> -->
+                <h2><input type="submit" name="btn-submit" id="submit" value="отправить"></h2>
             </div>
         </div>
     </div>
 
-    <div class="block-3">
+    <div class="block-3" id="this">
         <h1>Что такое <span>EVA</span> коврики?</h1>
         <div>
             <picture>
@@ -198,7 +197,7 @@
             </a>
         </div>
         <div>
-            <h6>КОНТАКТНЫЕ ТЕЛЕФОНЫ</h6>
+            <h6 id="contact">КОНТАКТНЫЕ ТЕЛЕФОНЫ</h6>
             <a href="tel:+375 29 292-29-29">
                 <p>+375 29 292-29-29 (VEL)</p>
             </a>
