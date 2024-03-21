@@ -4,6 +4,50 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+/* header a */
+a {
+    font-size: 15px;
+}
+
+.li-a {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+#logo {
+    font-size: 36px;
+}
+
+.block-3 div picture h2 {
+    font-size: 36px;
+}
+
+.modal-header h2 {
+    font-size: 24px;
+}
+
+.block-3 div picture p {
+    font-size: 14px;
+}
+
+.banner p {
+    font-size: 18px;
+}
+
+footer div h6 {
+    font-size: 14px;
+}
+
+footer div a {
+    font-size: 14px;
+}
+
+
+
+
 menu {
     display: flex;
     align-items: center;
@@ -17,7 +61,6 @@ menu {
 
 span ul li a {
     font-weight: 300;
-    font-size: 20px;
     color: rgba(115, 115, 115, 1);
 }
 
@@ -41,13 +84,7 @@ ul {
 }
 
 
-#logo {
-    display: flex;
-    font-style: italic;
-    letter-spacing: 0px;
-    font-weight: 900;
-    font-size: 36px;
-}
+
 
 li {
     list-style: none;
@@ -135,7 +172,12 @@ a svg {
     cursor: pointer;
 }
 
-
+#logo {
+    display: flex;
+    font-style: italic;
+    letter-spacing: 0px;
+    font-weight: 800;
+}
 
 
 
@@ -150,9 +192,7 @@ body {
     background-color: rgba(0, 0, 0, 0.1);
     z-index: 1;
     top: 0px;
-    /* left: 30%;  */
     position: fixed;
-    overflow-y: auto;
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -203,17 +243,7 @@ body {
 }
 
 
-/* @media (min-width: 320px) and (max-width: 768px) {
-    .header {
-        background: rgb(255, 0, 0);
-    }
-}
 
-@media (min-width: 768px) and (max-width: 1024px) {
-    .header {
-        background: rgb(0, 136, 255);
-    }
-} */
 
 
 #btn {
@@ -232,11 +262,11 @@ body {
 
 #block-2-header {
     width: 100%;
-    height: 520px;
+    height: 100%;
     /* border: solid black 1px; */
     display: flex;
     margin-top: 190px;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 #block-2-header span {
@@ -247,7 +277,6 @@ body {
 
 #block-2-header span h1 {
     color: rgba(0, 0, 0, 1);
-    font-size: 50px;
     font-weight: 800;
     text-align: left;
 }
@@ -290,7 +319,6 @@ footer div {
 }
 
 footer div h6 {
-    font-size: 14px;
     font-weight: 700;
     text-align: left;
     margin-bottom: 10px;
@@ -298,18 +326,17 @@ footer div h6 {
 
 footer div a {
     color: rgba(0, 0, 0, 1);
-    font-size: 14px;
     font-weight: 300;
     text-align: left;
 }
 
 .block-3 {
-    margin-top: 200px;
+
+    margin-top: 280px;
     text-align: center;
 }
 
 .block-3 h1 {
-    font-size: 50px;
     font-weight: 400;
     line-height: 59px;
     letter-spacing: 0em;
@@ -322,7 +349,6 @@ footer div a {
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
-    /* background-image: linear-gradient(180deg, #B8005F 9.24%, #00FFFF 210.4%); */
     background-image: linear-gradient(180deg, #B90160 2.23%, #2E3192 99.51%);
 
 }
@@ -350,12 +376,18 @@ footer div a {
     height: auto;
 }
 
+.borderline {
+    width: 363px;
+    height: 225px;
+
+}
+
+
 #last-img {
-    max-height: 53%;
+    /* max-height: 53%; */
 }
 
 .block-3 div picture h2 {
-    font-size: 36px;
     font-weight: 600;
     line-height: 42px;
     margin-left: 22px;
@@ -364,12 +396,15 @@ footer div a {
 
 .block-3 div picture p {
     color: rgba(118, 118, 118, 1);
-    font-size: 14px;
     font-weight: 300;
     line-height: 16px;
     margin-left: 22px;
     margin-top: 10px;
     margin-bottom: 22px;
+}
+
+.tablet-p {
+    display: none;
 }
 
 
@@ -406,8 +441,7 @@ footer div a {
 .banner p {
     margin-top: 63px;
     margin-bottom: 21px;
-    font-size: 18px;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 21px;
     text-align: center;
     color: rgba(0, 0, 0, 1);
@@ -431,11 +465,237 @@ footer div a {
     display: flex;
     /* justify-content: space-around; */
     position: absolute;
-    top: 2040px;
+    top: 1835px;
 }
 
 #banner-1,
 #banner-3 {
     opacity: 0.50;
 
+}
+
+#h1-zakaz-1024 {
+    display: none;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    /* header a */
+    a {
+        font-size: 12px;
+    }
+
+    .li-a {
+        font-size: 20px;
+        display: none;
+    }
+
+    h1 {
+        font-size: 38px;
+    }
+
+    #logo {
+        font-size: 36px;
+    }
+
+    .block-3 div picture h2 {
+        margin-left: 36px;
+        font-size: 36px;
+        font-weight: 700;
+    }
+
+    .modal-header h2 {
+        font-size: 24px;
+    }
+
+    .block-3 div {
+
+        align-items: center;
+    }
+
+    .block-3 div picture p {
+        font-size: 15px;
+        margin-left: 38px;
+        /* margin-bottom: 20px; */
+        font-weight: 300;
+        line-height: 17px;
+        text-align: left;
+
+
+    }
+
+    .banner p {
+        font-size: 18px;
+    }
+
+    footer div h6 {
+        font-size: 14px;
+    }
+
+    footer div a {
+        font-size: 14px;
+    }
+
+    #block-2-header span img {
+        position: absolute;
+        scale: 1.1;
+        top: 100px;
+        left: 50%;
+    }
+
+    #block-2-header {
+        margin-top: 60px;
+    }
+
+    #h1-zakaz {
+        display: none;
+    }
+
+    #h1-zakaz-1024 {
+        display: block;
+    }
+
+    .block-1 {
+        margin-top: 40px;
+        margin-right: 7em;
+        margin-left: 4em;
+    }
+
+    .block-3 {
+        margin-top: 200px;
+    }
+
+    .block-3 div {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 3em;
+    }
+
+    .block-3 div picture {
+        width: 594px;
+        height: 350px;
+    }
+
+    .borderline {
+        width: 602.63px;
+        height: 179.74px;
+        overflow: hidden;
+    }
+
+    .block-3 div picture div img {
+        width: 602.63px;
+    }
+
+    .block-3 h1 {
+        margin-bottom: 48px;
+    }
+
+    .dekstop-p {
+        display: none;
+    }
+
+    .tablet-p {
+        margin-left: 38px;
+        display: block;
+    }
+
+    .block-4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 124px;
+        width: 100%;
+        height: 948px;
+
+
+        /* border: solid black 1px; */
+    }
+
+    .block-banner {
+        display: flex;
+        flex-direction: column;
+        width: 536px;
+        height: 187px;
+    }
+
+    .avatar {
+        scale: 1.3;
+        display: flex;
+        /* justify-content: space-around; */
+        position: absolute;
+        top: 2100px;
+    }
+
+    #avatar-1 {
+        top: 2125px;
+    }
+
+    #avatar-2 {
+        top: 2390px;
+    }
+
+    #avatar-3 {
+        top: 2650px;
+    }
+
+    #banner-1,
+    #banner-3 {
+        opacity: 1;
+
+    }
+
+    picture div {}
+
+
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+    /* header a */
+    a {
+        font-size: 14px;
+    }
+
+    .li-a {
+        font-size: 20px;
+        display: none;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    #logo {
+        font-size: 18px;
+    }
+
+    .block-3 div picture h2 {
+        font-size: 36px;
+    }
+
+    #size-20 {
+        font-size: 20px;
+    }
+
+    .modal-header h2 {
+        font-size: 24px;
+    }
+
+    .block-3 div picture p {
+        font-size: 14px;
+    }
+
+    .banner p {
+        font-size: 18px;
+    }
+
+    footer div h6 {
+        font-size: 14px;
+    }
+
+    footer div a {
+        font-size: 14px;
+    }
 }

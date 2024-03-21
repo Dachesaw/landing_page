@@ -83,22 +83,25 @@
                             </svg> EVARUGS
                         </h1>
                     </span>
+
                     <span>
                         <ul>
-                            <li><a href="#this">что это?</a></li>
-                            <li><a href="#banner-3">отзывы</a></li>
-                            <li><a href="#contact">контакты</a></li>
+                            <li><a class="li-a" href="#this">что это?</a></li>
+                            <li><a class="li-a" href="#banner-3">отзывы</a></li>
+                            <li><a class="li-a" href="#contact">контакты</a></li>
                         </ul>
                     </span>
+
                 </div>
                 <div id="block-2-header">
                     <span>
-                        <h1>Иновационные коврики<br>для автомобиля</h1>
+                        <h1 id="h1-zakaz">Иновационные коврики<br>для автомобиля</h1>
+                        <h1 id="h1-zakaz-1024">Иновационные <br> коврики для <br> автомобиля</h1>
                         <p>в вашем городе</p>
                         <button id="btn">ЗАКАЗАТЬ</button>
                     </span>
                     <span>
-                        <img src="components/images/cofr.png" alt="">
+                        <img id="cofr" src="components/images/cofr.png" alt="">
                     </span>
                 </div>
             </div>
@@ -126,44 +129,68 @@
     </div>
 
     <div class="block-3" id="this">
-        <h1>Что такое <span>EVA</span> коврики?</h1>
+        <h1 id="size-20">Что такое <span>EVA</span> коврики?</h1>
         <div>
             <picture>
-                <img src="components/images/material.jpeg" alt="">
+                <div class="borderline">
+                    <img src="components/images/material.jpeg" alt="">
+                </div>
                 <h2>МАТЕРИАЛ</h2>
-                <p>Коврики EVA всесезонные и отличаются<br> уникальной поверхностью материала с
+                <p class="dekstop-p">Коврики EVA всесезонные и отличаются<br> уникальной поверхностью материала с
                     <br> ячейками ромбовиднойформы. Из-за чего <br> вода не проливается при изъятии ковра и <br> не
                     плещется
                     при
                     езде. Коврики воду не <br>
                     пропускают.
                 </p>
+                <p class="tablet-p">Коврики EVA всесезонные и отличаются уникальной поверхностью <br> материала с
+                    ячейками ромбовиднойформы. Из-за чего вода не <br> проливается при изъятии ковра и не плещется
+                    при езде. Коврики воду не <br>
+                    пропускают.
+                </p>
             </picture>
             <picture>
-                <img src="components/images/difference.jpeg" alt="">
+                <div class="borderline">
+                    <img src="components/images/difference.jpeg" alt="">
+                </div>
                 <h2>ОТЛИЧИЯ</h2>
-                <p>Резиновые коврики загибаются и лезут на<br> педали. EVA коврики такого не допустят! <br>
+                <p class="dekstop-p">Резиновые коврики загибаются и лезут на<br> педали. EVA коврики такого не допустят!
+                    <br>
                     Специальные
                     липучки
                     держат его в одном <br> положении. При желании, для водителя <br> устанавливается подпятник из
                     рельефного <br>
                     алюминия.
                 </p>
+                <p class="tablet-p">Резиновые коврики загибаются и лезут на педали. EVA коврики такого не <br> допустят!
+                    Специальные липучки
+                    держат его в одном положении. При <br> желании, для водителя устанавливается подпятник из
+                    рельефного <br>
+                    алюминия.
+                </p>
             </picture>
             <picture>
-                <img id="last-img" src="components/images/color scheme.jpeg" alt="">
+                <div class="borderline">
+                    <img id="last-img" src="components/images/color scheme.jpeg" alt="">
+                </div>
                 <h2>РАСЦВЕТКА</h2>
-                <p>Автомобильные коврики EVA можно <br> заказать и в индивидуальных размерах и в <br> разных цветах,
+                <p class="dekstop-p">Автомобильные коврики EVA можно <br> заказать и в индивидуальных размерах и в <br>
+                    разных цветах,
                     которые
                     комбинируется на <br> выбор покупателя с такими же цветами <br> окантовочной полипропиленовой
                     ременной <br>ленты.
+                </p>
+                <p class="tablet-p">Автомобильные коврики EVA можно заказать и в индивидуальных <br> размерах и в
+                    разных цветах, которые
+                    комбинируется на выбор покупателя с <br> такими же цветами окантовочной полипропиленовой
+                    ременной ленты.
                 </p>
             </picture>
         </div>
     </div>
     <div class="block-4">
         <div class="block-banner" id="banner-1">
-            <img class="avatar" src="components/images/left.svg" style="width: 106px;" alt="">
+            <img class="avatar" id="avatar-1" src="components/images/left.svg" style="width: 106px;" alt="">
             <div class="banner">
                 <p>Коврики супер!!! Качество на высшем уровне!!! <br> Удачи и побольше заказов вам!!! Большое спасибо!
                 </p>
@@ -172,7 +199,7 @@
             </div>
         </div>
         <div class="block-banner" id="banner-2">
-            <img class="avatar" src="components/images/center.svg" style="width: 106px;" alt="">
+            <img class="avatar" id="avatar-2" src="components/images/center.svg" style="width: 106px;" alt="">
             <div class="banner">
                 <p>Покупала у ребят коврики для Хундай солярис в <br> подарок молодому человеку. Все очень <br>
                     понравилось. Буду советовать только вас.</p>
@@ -181,7 +208,7 @@
             </div>
         </div>
         <div class="block-banner" id="banner-3">
-            <img class="avatar" src="components/images/right.svg" style="width: 106px;" alt="">
+            <img class="avatar" id="avatar-3" src="components/images/right.svg" style="width: 106px;" alt="">
             <div class="banner">
                 <p>Спасибо, все приехало, поставил. Результатом <br> доволен, в машине супер! Заказывал на Ниссан.</p>
                 <img src="components/images/hr.svg" alt="">
@@ -224,7 +251,7 @@
 
 
     <!-- <button id="btn">modal</button> -->
-
+    <!-- <script src="script.js"></script> -->
     <script src="components/javascript/script.js"></script>
 </body>
 
