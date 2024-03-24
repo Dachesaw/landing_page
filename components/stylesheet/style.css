@@ -160,6 +160,7 @@ a svg {
     height: 6em;
 }
 
+
 #submit {
     border-radius: 9px;
     margin-top: 3em;
@@ -262,7 +263,7 @@ body {
     font-size: 20px;
     font-weight: 700;
     text-align: center;
-    cursor: pointers;
+    cursor: pointer;
 
 }
 
@@ -281,10 +282,15 @@ body {
     gap: 1em;
 }
 
-#block-2-header span h1 {
+#h1-zakaz {
     color: rgba(0, 0, 0, 1);
     font-weight: 800;
     text-align: left;
+}
+
+#h1-zakaz-1024 {
+    color: rgba(0, 0, 0, 1);
+    font-weight: 700;
 }
 
 #block-2-header span p {
@@ -709,8 +715,21 @@ footer div a {
 @media (min-width: 320px) and (max-width: 767px) {
 
     /* header a */
+
+    body {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
     a {
-        font-size: 14px;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .center-svg {
+        font-size: 23px;
+        font-weight: 300;
     }
 
     .li-a {
@@ -719,27 +738,92 @@ footer div a {
     }
 
     h1 {
-        font-size: 25px;
+        font-size: 38px;
     }
 
     #logo {
-        font-size: 18px;
+
+        align-items: center;
+        /* width: 183.36px; */
+
+        height: 36px;
+
+        font-weight: 800;
+        font-size: 25px;
+    }
+
+    #logo svg {
+        padding-right: 10px;
+    }
+
+    menu span a svg {
+        display: none;
     }
 
     .block-3 div picture h2 {
+        margin-left: 36px;
         font-size: 36px;
-    }
-
-    #size-20 {
-        font-size: 20px;
+        font-weight: 700;
     }
 
     .modal-header h2 {
         font-size: 24px;
     }
 
+    #right {
+        margin: 0px;
+    }
+
+    .left-nav {
+        flex-direction: column;
+        gap: 1px;
+    }
+
+    menu {
+        margin: 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #block-2-header span p {
+        font-size: 27px;
+        font-weight: 300;
+        text-align: center;
+
+    }
+
+    #btn {
+        width: 10em;
+        height: 3em;
+
+        border-radius: 7px;
+        border: none;
+        font-size: 11px;
+        font-weight: 700;
+        text-align: center;
+        cursor: pointer;
+
+    }
+
+    #cofr {
+        display: none;
+    }
+
+    .block-3 div {
+
+        align-items: center;
+    }
+
     .block-3 div picture p {
-        font-size: 14px;
+        font-size: 15px;
+        margin-left: 38px;
+        /* margin-bottom: 20px; */
+        font-weight: 300;
+        line-height: 17px;
+        text-align: left;
+
+
     }
 
     .banner p {
@@ -752,5 +836,230 @@ footer div a {
 
     footer div a {
         font-size: 14px;
+    }
+
+    #block-2-header span img {
+        position: absolute;
+        scale: 1.1;
+        top: 100px;
+        left: 50%;
+    }
+
+    #block-2-header {
+        margin-top: 60px;
+    }
+
+    #h1-zakaz {
+        display: none;
+    }
+
+    #h1-zakaz-1024 {
+        display: block;
+        letter-spacing: -1px;
+        text-align: center;
+    }
+
+
+    .block-1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .centered-content span h1 {
+        align-items: center;
+        /* font-size: 25px; */
+        line-height: 40px;
+        font-weight: 100;
+        text-align: center;
+    }
+
+    .centered-content span {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .centered-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+
+
+    .block-3 {
+        margin-top: 61px;
+    }
+
+    .block-3 div {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 3em;
+    }
+
+    #size-20 {
+        font-size: 32px;
+    }
+
+    .block-3 div picture {
+        width: 80%;
+    }
+
+    .borderline {
+        width: 602.63px;
+        height: 179.74px;
+        overflow: hidden;
+    }
+
+    .block-3 div picture div img {
+        width: 602.63px;
+    }
+
+    .block-3 h1 {
+        margin-bottom: 48px;
+    }
+
+    .dekstop-p {
+        display: none;
+    }
+
+    .tablet-p {
+        margin-left: 38px;
+        display: block;
+    }
+
+    .block-4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 103px;
+        padding-top: 70px;
+        width: 100%;
+        height: max-content;
+        padding-bottom: 150px;
+        gap: 80px;
+        margin-bottom: 0;
+        /* border: solid black 1px; */
+    }
+
+    .block-banner {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        height: 187px;
+        /* text-align: center; */
+    }
+
+    .avatar {
+        scale: 1.5;
+        display: flex;
+        /* justify-content: space-around; */
+        position: sticky;
+        top: 2100px;
+    }
+
+    /* #avatar-1 {}
+
+    #avatar-2 {
+        top: 2320px;
+    }
+
+    #avatar-3 {
+        top: 2645px;
+    } */
+
+    #banner-1,
+    #banner-3 {
+        opacity: 1;
+
+    }
+
+    .modal {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+
+        backdrop-filter: blur(25px);
+    }
+
+    .modal-content {
+        width: 267px;
+        height: 330px;
+        align-items: center;
+    }
+
+    .modal-header h2 {
+        font-size: 17px;
+        font-weight: 600;
+    }
+
+    .modal-body label {
+
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 21px;
+    }
+
+    #name {
+        text-align: center;
+        margin: 0;
+        width: 212px;
+        height: 20px;
+    }
+
+    #email {
+        text-align: center;
+        margin: 0;
+        width: 212px;
+        height: 20px;
+    }
+
+    #comment {
+        font-size: 10px;
+        font-weight: 300;
+        line-height: 11.72px;
+        text-align: center;
+
+        margin: 0;
+        width: 212px;
+        height: 95px;
+    }
+
+    #submit {
+        font-size: 11px;
+        font-weight: 300;
+        margin: 20px;
+        width: 6em;
+        height: 1.5em;
+        border-radius: 4px;
+    }
+
+    footer {
+        padding: 50px;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    footer div {
+        align-items: center;
+        text-align: center;
+    }
+
+    footer div a {
+        font-weight: 400;
+    }
+
+    #footer-center-last-element {
+        text-align: center;
+        font-weight: 400;
+        margin-bottom: 15px;
     }
 }
