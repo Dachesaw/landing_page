@@ -218,7 +218,7 @@ body {
     bottom: 0;
     margin: auto 0; */
     width: 50%;
-    height: 40%;
+    height: 50%;
     background-color: white;
     animation-name: animate;
     animation-duration: 0.5s;
@@ -395,9 +395,6 @@ footer div a {
 }
 
 
-#last-img {
-    /* max-height: 53%; */
-}
 
 .block-3 div picture h2 {
     font-weight: 600;
@@ -673,7 +670,6 @@ footer div a {
         align-items: center;
     }
 
-    .modal-header {}
 
     .modal-body label {
 
